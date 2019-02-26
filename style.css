@@ -10,6 +10,7 @@ h2 {
 	font-size: 24px;
 	color: white;
 	border-radius: 5px;
+	margin: 0px;
 }
 
 h1 {
@@ -19,12 +20,67 @@ h1 {
 	
 }
 
+/*Changing color of navbar*/
 .navbar {
 	border-bottom: 1px solid grey;
 	margin-bottom: 20px;
+	
    
 }
+.container {
+	margin: 0 auto;
+	position: relative;
+	background-color: white;
+	}
 
+
+/*Styling for flex box*/
+	.portfolio-images {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 4px;
+		
+	}
+	
+	.column {
+		flex: 25%;
+		max-width: 25%;
+		padding: 0 4px;
+		position: relative;
+	}
+	
+	.column img {
+		margin-top: 8px;
+		vertical-align: middle;
+	}
+	
+	@media screen and (max-width: 800px) {
+		.column {
+			flex: 50%;
+			max-width: 50%;
+		}
+	}
+	
+	/*image text styling*/
+	.image-wrapper {
+	position: relative;
+	float: left;
+	}    
+	
+	.label {
+		position: absolute;
+		float: left;
+		bottom: 30%;
+		text-align: center;
+		width: 100%;
+		background-color: rgb(0, 153, 204, 0.5);
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 10px;
+		font-size: 20px;
+	}
+
+	/*Sticky footer*/
 footer {
 	background: #616161;
 	flex-shrink: 0;
@@ -36,14 +92,8 @@ footer {
 	color: white;
 	}
 	
-.container {
-	margin: 0 auto;
-	position: relative;
-	background-color: white;
-	}
+
 	
 .copyright {
 	text-align: center;
 	}
-}
-
