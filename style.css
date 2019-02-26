@@ -1,0 +1,49 @@
+body {
+	background-image: url(Images/regal/regal.png);
+
+}
+
+h2 {
+	background-color: teal;
+	text-align: center;
+	padding: 10px;
+	font-size: 24px;
+	color: white;
+	border-radius: 5px;
+}
+
+h1 {
+	color: teal;
+	margin: 20px 0px;
+	padding: 20px 0px;
+	
+}
+
+.navbar {
+	border-bottom: 1px solid grey;
+	margin-bottom: 20px;
+   
+}
+
+footer {
+	background: #616161;
+	flex-shrink: 0;
+	border-top: 5px solid #4aaaa5;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	}
+	
+.container {
+	margin: 0 auto;
+	position: relative;
+	background-color: white;
+	}
+	
+.copyright {
+	text-align: center;
+	}
+}
+
