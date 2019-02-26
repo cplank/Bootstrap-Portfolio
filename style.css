@@ -38,7 +38,7 @@ h1 {
 	.portfolio-images {
 		display: flex;
 		flex-wrap: wrap;
-		padding: 0 4px;
+		padding: 0px 4px;
 		
 	}
 	
@@ -54,7 +54,7 @@ h1 {
 		vertical-align: middle;
 	}
 	
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 690px) {
 		.column {
 			flex: 50%;
 			max-width: 50%;
@@ -91,7 +91,13 @@ footer {
 	width: 100%;
 	color: white;
 	}
+
 	
 .copyright {
 	text-align: center;
+	}
+
+	.btn {
+		background-color: teal !important;
+		margin-bottom: 20px !important;
 	}
